@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-end; 
+}
+
+.caja {
+    width: 250px;
+    height: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.caja-1 {
+    background-color: #ff6347; 
+}
+
+.caja-2 {
+    background-color: #00bfff; 
+}
+
+.caja-3 {
+    background-color: #7fff00;
+}
